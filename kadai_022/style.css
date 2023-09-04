@@ -7,7 +7,8 @@ p {
   font-size: 20px;
 }
 a {
-  font-size: 20px;}
+  font-size: 20px;
+}
 body {
   margin: 0px;
 }
@@ -55,12 +56,13 @@ footer {
 a {
   color: rgb(255, 255, 255);
 }
-a :hover {
-  color:  rgb(245, 178, 168)
-}
-a :visited {
+a:visited {
   color: rgb(193, 234, 251);
 }
+a:hover {
+  color: rgb(245,178,168);
+}
+
 
 @media screen and (max-width: 768px) {
     div {display: inline-block;}
